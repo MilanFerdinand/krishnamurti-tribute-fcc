@@ -1,0 +1,39 @@
+@font-face {
+font-family: 'LightExtended';
+src: url('assets/fonts/HelveticaNeueLTStd-LtEx.woff2') format('woff2'),
+url('assets/fonts/HelveticaNeueLTStd-LtEx.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+ font-family: 'ThinExtended';
+src: url('assets/fonts/HelveticaNeueLTStd-ThEx.woff2') format('woff2'),
+url('assets/fonts/HelveticaNeueLTStd-ThEx.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'StandardExtended';
+src: url('assets/fonts/HelveticaNeueLTStd-Ex.woff2') format('woff2'),
+url('assets/fonts/HelveticaNeueLTStd-Ex.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+body{
+background-color: #04090a;
+color: #fff;
+}
+h1{
+font-family: 'LightExtended', Arial, Helvetica, sans-serif;
+font-weight: normal;
+font-style: normal;
+font-size:76px;
+line-height:114px;
+}
+#main{
+min-height:100%;
+}
+#main-container{
+margin-left:15%;
+position:absolute;
+}
