@@ -23,6 +23,12 @@ body{
 background-color: #04090a;
 color: #fff;
 font-size:16px;
+margin: 0;
+padding: 0;
+height: 100%;
+}
+a{
+text-decoration: none;
 }
 h1{
 font-family: 'LightExtended', Arial, Helvetica, sans-serif;
@@ -58,7 +64,7 @@ border:none;
 background-color: #292E2F;
 }
 #main{
-min-height:100%;
+min-height:100vh;
 }
 #main-container{
 display: flex;
@@ -98,6 +104,23 @@ background-image: url(/assets/images/horizontal-pattern.png);
 background-repeat: repeat-x;
 top: 135px;
 margin-left:15%;
+}
+#life{
+margin-top:3%;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+#life img{
+max-width:100%
+}
+#right-quote,#left-quote{
+padding: 0 90px;
+text-align: justify;
+text-justify: newspaper;
+}
+#left-image,#right-image{
+flex-basis:50%;
 }
 /* Larger desktop sizes */
 @media (max-width: 1439.99px) { 
