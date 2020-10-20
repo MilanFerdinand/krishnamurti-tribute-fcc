@@ -14,7 +14,9 @@ A couple of things to watch out for:
 - By turning off ::-webkit-search-decoration, it removes the extra whitespace on the left on search inputs
 
 ----------------------------------------------------------------------------------------------------*/
-
+h1,
+h2,
+h3,
 input,
 label,
 select,
