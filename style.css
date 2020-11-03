@@ -126,14 +126,14 @@ padding: 0 0 0 8em;
 position: relative;
 grid-column: 2 / 6;
 grid-row: 2 / 4;
-background: url(/assets/images/horizontal-pattern.png) repeat-x;
+background: url(assets/images/horizontal-pattern.png) repeat-x;
 }
 #container{
 position:relative;
 }
 #container::before{
 content:"";
-background: url(/assets/images/vertical-pattern.png) repeat-y;
+background: url(assets/images/vertical-pattern.png) repeat-y;
 display:block;
 position: absolute;
 width: 100%;
